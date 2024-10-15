@@ -7,5 +7,5 @@ Here we have bare metal on top of which we install the host OS and on the host O
 1. Create an Ubuntu instance on AWS
 2. Connect to it using git bash
 3. Execute the below 2 commands
-4. curl -fsSL https://get.docker.com -o get-docker.sh
-5. sh get-docker.sh
+  curl -fsSL https://get.docker.com -o get-docker.sh
+  sh get-docker.sh
