@@ -17,5 +17,5 @@ This is the cloud site of docker where docker images are stored.This is of two t
 1. Create an Ubuntu instance on AWS
 2. Connect to it using git bash
 3. Execute the below 2 commands
-  curl -fsSL https://get.docker.com -o get-docker.sh
-  sh get-docker.sh
+a. curl -fsSL https://get.docker.com -o get-docker.sh
+b. sh get-docker.sh
