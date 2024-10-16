@@ -1,7 +1,23 @@
 # Usecase1
 # Create an nginx contaienr in detached mode and name it webserver Also perfrom port mapping
-docker run  --name webserver -p 8888:80 -d nginx
+docker run --name webserver -p 8888:80 -d nginx
 # To check if the nginx container is running
 docker container ls
 # To access the nginx container from the leve of browser
 public_ip_of_dockerhost:8888
+
+# Usecase2
+# Start tomcat as a container and perfrom automatic port mapping
+docker run --name appserver -d -P tomcat
+# To see the ports used by the above container
+docker port appserver
+# To access the tomcat from borwser
+piblic_ip_of_dockerhost: hostport
+
+# Usecase3
+# Start a jenkins container in detached mode and also perfrom port mapping
+docker run --name myjenkins -d -p 9999:8080 jenkins/jenkins
+# To see the ports used by the above container
+docker port appserver
+# To access jenkins from browser
+public_ip_of_docker_host:9999
