@@ -16,6 +16,10 @@ This is the cloud site of docker where docker images are stored.This is of two t
 # Installing Docker on Linux
 1. Create an Ubuntu instance on AWS
 2. Connect to it using git bash
-3. Execute the below 2 commands
-a. curl -fsSL https://get.docker.com -o get-docker.sh
-b. sh get-docker.sh
+3. Execute the below commands
+4. curl -fsSL https://get.docker.com -o get-docker.sh
+5. sh get-docker.sh
+# Images and Containers
+A Docker image is a combination of bin/libs that are necessary for a s/w application to work.Initially all the s/w's of docker are available in the form of docker images. A running instance of an image is called as a container
+# Docker Host:
+The server where docker is installed is called docker host
