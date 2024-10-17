@@ -8,14 +8,14 @@ services:
    - 5050:8080
 
  qaserver:
-  image: tomcat
+  image: tomee
   ports:
    - 6060:8080
   links:
    - myjenkins:jenkins
 
  prodserver:
-  image: tomcat
+  image: tomee
   ports:
    - 7070:8080
   links:
