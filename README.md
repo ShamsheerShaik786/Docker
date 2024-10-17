@@ -23,3 +23,9 @@ This is the cloud site of docker where docker images are stored.This is of two t
 A Docker image is a combination of bin/libs that are necessary for a s/w application to work.Initially all the s/w's of docker are available in the form of docker images. A running instance of an image is called as a container
 # Docker Host:
 The server where docker is installed is called docker host
+# To setup a multi container architecture
+1 Using --link run command option (depricated)
+2 Docker compose
+3 Docker Networkings
+4 Python Scripting
+5 Ansible Playbooks
