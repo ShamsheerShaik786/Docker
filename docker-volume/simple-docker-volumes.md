@@ -1,4 +1,4 @@
-# UsedCase
+# UseCase
 # Create a directory /data and mount it as a volume on an ubuntu container and create some files in the mounted volumes and check if the files are preserved on the host machine even after the container is deleted
 # Create /data directory
 mkdir /data
