@@ -1,4 +1,4 @@
-# 1 Create a dockerfile from ubuntu baseimage and make if behave like jenkins
+# 1 Create a dockerfile from ubuntu base image and make if behave like jenkins
   vim dockerfile
   FROM ubuntu
   MAINTAINER intelliqit
