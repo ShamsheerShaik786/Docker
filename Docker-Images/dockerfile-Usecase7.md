@@ -3,7 +3,7 @@
 # 1 Create a dockerfile
   vim dockerfile
   FROM ubuntu
-  MAINTAINER intelliqit
+  MAINTAINER shamsheer
   RUN apt-get update
   RUN apt-get install -y nginx
   ENTRYPOINT ["/usr/sbin/nginx","-g","daemon off;"]
@@ -19,4 +19,4 @@
   docker container ls
 
 # 5 To access nignx from browser
-  public_ip_of_dockerhost:port_no_captured_from_step3
+  public_ip_of_dockerhost:port_no_captured_from_step4
