@@ -1,4 +1,4 @@
-# 
+# Configure Docker Networks and Containers for Selective Connectivity Testing
 # 1 Create 2 bridge networks
   docker network create --driver bridge Network1
   docker network create --driver bridge Network2
